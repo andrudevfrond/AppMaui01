@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MauiApp01"
              x:Class="MauiApp01.MainPage">
+    <ContentPage.Resources>
+        <x:Double x:Key="labelSizeDrez">40</x:Double>
+    </ContentPage.Resources>
 
     <VerticalStackLayout>
-        <Label Text="{local:GeoLocationDeviceName}" Padding="10"/>
-        <Label x:Name="miLabel" Text="{local:GeneratorGuid}"/>
+        <Label
+            Text="{local:GeoLocationDeviceName}"
+            Padding="10"
+            FontSize="{StaticResource labelSize}"/>
+        <Label
+            x:Name="miLabel"
+            Text="{local:GeneratorGuid}"
+            FontSize="{StaticResource labelSize}"/>
     </VerticalStackLayout>
 
 

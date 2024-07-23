@@ -5,6 +5,7 @@
              x:Class="MauiApp01.App">
     <Application.Resources>
         <ResourceDictionary>
+            <x:Double x:Key="labelSize">20</x:Double>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
