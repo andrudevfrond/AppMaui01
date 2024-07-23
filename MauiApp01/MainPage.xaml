@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:MauiApp01"
              x:Class="MauiApp01.MainPage">
 
-    <Label x:Name="miLabel" Text="{local:GeneratorGuid}"/>
+    <VerticalStackLayout>
+        <Label Text="{local:GeoLocationDeviceName}" Padding="10"/>
+        <Label x:Name="miLabel" Text="{local:GeneratorGuid}"/>
+    </VerticalStackLayout>
+
 
 </ContentPage>

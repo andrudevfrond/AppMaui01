@@ -2,5 +2,5 @@
 
 public partial class NameDevice
 {
-    public partial string GetName() => null;
+    public partial string GetName() => Guid.NewGuid().ToString();
 }
