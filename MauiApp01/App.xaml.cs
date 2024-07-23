@@ -21,9 +21,7 @@ namespace MauiApp01
                 OpenWindow(ventana2);
             };
 
-            MainPage = new ContentPage() { 
-                Content = button
-            };
+            MainPage = new MainPage();
         }
 
         protected override void OnResume()
