@@ -9,6 +9,8 @@ namespace MauiApp01
 
             var button = new Button();
             button.Text = "Generar un nueva ventana";
+            button.FontSize =40;
+            button.FontFamily = "SmackBoom";
             button.Clicked += (s, a) =>
             {
                 var ventana2 = new Window(new ContentPage());
